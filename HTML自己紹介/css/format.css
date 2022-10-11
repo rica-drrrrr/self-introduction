@@ -1,0 +1,218 @@
+body {
+  padding-top: 20px;
+}
+
+
+
+.menu {
+  text-align: right;
+}
+
+.menu li{
+  display: inline-block;
+  font-family: 'Manrope', sans-serif;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu li:last-child{
+  margin-right: 10;
+}
+
+.mainImage {
+  width: 100％;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mainImage img{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+
+
+
+
+.AboutSection {
+  padding: 45px;
+}
+.AboutSection h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 1px;
+}
+
+.AboutSection p {
+  text-align: center;
+  font-size: 16px;
+  margin: 5px;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+
+
+.SkillsSection{
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 45px;
+  background-color: #303030
+}
+
+.SkillsSection h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20,0,0,0;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 1px;
+}
+
+.SkillsSection ul{
+  overflow: hidden;
+  padding: 0px;
+}
+
+.SkillsSection li {
+  float: left;
+  font-weight: 200;
+  text-align: center;
+  list-style: none;
+  width: 12%;
+  margin: 80px;
+}
+
+.SkillsSection li:last-child{
+  margin-right: 0;
+}
+
+.SkillsSection li img {
+  width: 100px;
+  height: 100px
+}
+
+.SkillsSection li p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+
+
+
+.WorksSection h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;font-family: 'Manrope', sans-serif;
+  letter-spacing: 1px;
+}
+
+.WorksSection p {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+
+
+
+
+
+.ContactTitle h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;font-family: 'Manrope', sans-serif;
+  letter-spacing: 1px;
+}
+
+.ContactSection{
+  margin: 0;
+  text-align: center;
+}
+
+.ContactList li {
+  width: 400px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  list-style: none;
+}
+
+.ContactList label {
+  float: left;
+  font-size: 30px
+  padding-top: 20px;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+#submitButton {
+  display       : inline-block;
+  border-radius : 44%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 7px 40px;   /* 余白       */
+  background    : #fdf5ae;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #fdf5ae;    /* 枠の指定 */
+}
+#submitButton:hover {
+  color         : #fdf5ae;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+
+hr {
+  margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pannnotane {
+  padding-top: 50px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pannnotane img  {
+  width: 240px;
+}
+
+.pannnotane p {
+  font-size: 16px;
+  font-size: 30px
+  padding-top: 15px;
+  margin-left: 3px;
+  font-family: 'Manrope', sans-serif;
+}
